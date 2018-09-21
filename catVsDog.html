@@ -3,22 +3,24 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js1/jquery-3.3.1.js"></script>
+    <script src="js1/scripts.js"></script>
     <title>Dogs vs Cats</title>
   </head>
   <body>
     <div class="container">
-      <h1>Dog vs Cat</h1>
-      <p>Click the dog or cat button to see what they have to say.</p>
+      <div class="jumbotron">
+        <h1>Dog vs Cat</h1>
+      </div>
+      <h4>Click the dog or cat button to see what they have to say.  <span id="bgColor">Click on this sentence to change the background color or click again to change back to the original layout.</span></h4>
+      <h4 id="image">Click on this sentence to get an image.</h4>
       <button id="dog" class="btn btn-primary">Dog</button>
       <button id="cat"class="btn btn-primary">Cat</button>
 
       <div class="row">
         <div class ="col-md-6">
-          <!--<button id="dog" class="btn btn-primary">Dog</button>-->
           <h2>Dog Said:</h2>
-          <ul id="perro" class="unstyled">
+          <ul id="bark" class="unstyled">
 
           </ul>
         </div>
@@ -26,7 +28,7 @@
         <div class="col-md-6">
           <!--<button id="cat"class="btn btn-primary">Cat</button>-->
           <h2>Cat Said:</h2>
-          <ul id="gato" class="unstyled">
+          <ul id="meow" class="unstyled">
 
           </ul>
         </div>
