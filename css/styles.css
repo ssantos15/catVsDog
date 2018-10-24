@@ -5,3 +5,17 @@
 .backgroundColor {
   background: gray;
 }
+
+#bgColor{
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#image{
+  cursor:pointer;
+  font-weight: bold;
+}
+
+li{
+  cursor:pointer;
+}
